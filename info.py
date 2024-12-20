@@ -20,9 +20,9 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
 
 # for mongodb
-DATABASE_NAME = os.environ.get("DB_NAME", "")     
-DATABASE_URI  = os.environ.get("DB_URL", "")
-MONGO_URL = os.environ.get('MONGO_URL', "mongodb+srv://akashrabha2005:781120@cluster0.pv6yd2f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = os.environ.get("DB_NAME", "Cluster0")     
+DATABASE_URI  = os.environ.get("DB_URL", "mongodb+srv://akashrabha2005:781120@cluster0.pv6yd2f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_URL = os.environ.get('MONGO_URL', "")
 
 
 
