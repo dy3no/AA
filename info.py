@@ -17,7 +17,7 @@ API_HASH = os.environ.get('API_HASH', '822cb334ca4527a134aae97f9fe44fd6')
 BOT_TOKEN = os.environ.get('BOT_TOKEN', '7688784612:AAG2i-qcDpxY3GNe7hdipfWCXToXW42kO2g')
 PORT = os.environ.get("PORT", "8080")
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6987158459').split()]
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002359661129'))
 
 # for mongodb
 DATABASE_NAME = os.environ.get("DB_NAME", "Cluster0")     
